@@ -6,14 +6,14 @@ class Person(object):
         self.name = name
         self.cpf = cpf
 
-    def getName(self) -> str:
+    def get_name(self) -> str:
         return self.name
 
-    def setName(self, name: str):
+    def set_name(self, name: str):
         self.name = name
 
-    def getCpf(self) -> str:
+    def get_cpf(self) -> str:
         return self.cpf
 
-    def setCpf(self, cpf: str):
+    def set_cpf(self, cpf: str):
         self.cpf = cpf

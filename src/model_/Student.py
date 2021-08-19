@@ -9,8 +9,8 @@ class Student(Person):
         self.cpf = cpf
         self.registration_number = registration_number
 
-    def getRegistrationNumber(self) -> str:
+    def get_registrationNumber(self) -> str:
         return self.registration_number
 
-    def setRegistrationNumber(self, registration_number: str):
+    def set_registrationNumber(self, registration_number: str):
         self.registration_number = registration_number
